@@ -1,0 +1,152 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="320px" />
+    <mj-title>Updates from Plantie</mj-title>
+    <mj-attributes> </mj-attributes>
+    <mj-style inline="inline"> .social{margin:10px;}</mj-style>
+    <mj-font
+      name="Sedgwick Ave"
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap"
+    />
+    <mj-font
+      name="Reem Kufi"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap"
+    />
+    <mj-preview>Your latest plants arrived, shop now!</mj-preview>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#F2F8F8">
+      <mj-column padding="0px">
+        <mj-image
+          width="150px"
+          align="center"
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643610417/Group_8_xcm1jv.png"
+      /></mj-column>
+    </mj-section>
+    <mj-wrapper
+      background-size="cover"
+      background-url="https://res.cloudinary.com/thien1013/image/upload/v1643610911/hero_vbpdty.png"
+      background-color="#2a3448"
+      padding="100px 0px"
+    >
+      <mj-section>
+        <mj-column>
+          <mj-text
+            color="#ffffff"
+            font-family="Sedgwick Ave"
+            align="center"
+            font-size="64px"
+          >
+            Fresh Stock
+          </mj-text>
+          <mj-text
+            color="#ffffff"
+            font-family="Reem Kufi"
+            align="center"
+            font-size="24px"
+            font-weight="700"
+          >
+            New arrivals are online and ready to shop
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-image
+            align="center"
+            src="https://res.cloudinary.com/thien1013/image/upload/v1643532441/small_malvestida_magazine_sps_DM_Wv1o_s_unsplash_1_026017ebc8.png"
+            width="200px"
+            border="5px solid white"
+          />
+        </mj-column>
+        <mj-column>
+          <mj-image
+            align="center"
+            src="https://res.cloudinary.com/thien1013/image/upload/v1643532441/small_charles_deluvio_iylx_Q1e6s_OA_unsplash_1_feb750c48f.png"
+            width="200px"
+            border="5px solid white"
+          />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section background-color="#F2F8F8">
+      <mj-column>
+        <mj-text
+          color="#000000"
+          font-family="Reem Kufi"
+          align="left"
+          font-size="18px"
+          font-weight="400"
+          line-height="28px"
+          padding="25px"
+        >
+          One of the best thing about Plantie is that we bring you a selection
+          of plants that you cant see anywhere else. And that’s why we’re so
+          excited about this order. We’ve received so many request for specialty
+          plants, and we’ve been able to find almost all of them. They’re online
+          now and ready for you to shop today!
+        </mj-text>
+        <mj-button
+          align="center"
+          background-color="#57A96B"
+          color="white"
+          font-family="Reem Kufi"
+          font-size="18px"
+          font-weight="700"
+          line-height="28px"
+          height="67px"
+          width="206px"
+          href="https://plantie-frontend.vercel.app/shop"
+        >
+          Shop now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper
+      background-size="cover"
+      background-url="https://res.cloudinary.com/thien1013/image/upload/v1643610328/dee-copper-and-wild-fnctVhgg25s-unsplash_vgkhun.jpg"
+      background-color="#F2F8F8"
+      padding="50px 0px 200px 0px"
+    >
+      <mj-section>
+        <mj-column background-color="#303030" width="70%" padding="10px">
+          <mj-text
+            color="white"
+            font-family="Reem Kufi"
+            align="center"
+            font-size="18px"
+            font-weight="400"
+            line-height="28px"
+            container-background-color="#2C0F0F"
+          >
+            <h2>Do you follow ?</h2>
+            <p>
+              We constantly share tips and tricks on taking care of plants.
+              Follow us to get tons of useful information.
+            </p>
+            <mj-text>
+              <a href="https://documentation.mjml.io/">
+                <img
+                  class="social"
+                  src="https://res.cloudinary.com/thien1013/image/upload/v1643614382/fb_syykud.png"
+                  width="24px"
+                />
+              </a>
+              <a href="https://documentation.mjml.io/">
+                <img
+                  class="social"
+                  src="https://res.cloudinary.com/thien1013/image/upload/v1643614382/insta_wactto.png"
+                  width="24px"
+                />
+              </a>
+            </mj-text>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column> </mj-column>
+        <mj-column> </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

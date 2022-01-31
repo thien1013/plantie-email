@@ -1,0 +1,138 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="375px" />
+    <mj-title>Snips daily mail</mj-title>
+    <mj-attributes> </mj-attributes>
+    <mj-style inline="inline"></mj-style>
+    <mj-font
+      name="Poiret One"
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+    />
+    <mj-font
+      name="Montserrat"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    />
+    <mj-preview>Your latest plants arrived, shop now!</mj-preview>
+  </mj-head>
+  <mj-body background-color="#C8C8C8">
+    <mj-section
+      background-url="https://res.cloudinary.com/thien1013/image/upload/v1643655034/kaysha-52bLA0c8nJA-unsplash_1_trbw0p.png"
+      background-color="#013C6D"
+      background-size="cover"
+      background-position="bottom"
+    >
+      <mj-column>
+        <mj-text
+          font-size="144px"
+          font-family="Poiret One"
+          color="white"
+          align="center"
+          padding-bottom="350px"
+          >Snips</mj-text
+        >
+        <mj-button
+          font-size="18px"
+          font-family="Montserrat"
+          font-weight="700"
+          align="center"
+          background-color="transparent"
+          border="5px solid white"
+          border-radius="0px"
+          padding-bottom="20px"
+          height="88px"
+          width="220px"
+          href="#"
+          >Shop Snips</mj-button
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text
+          color="#01284F"
+          align="center"
+          padding="50px"
+          font-family="Montserrat"
+          font-size="18px"
+          line-height="30px"
+          font-weight="700"
+        >
+          Strut your Snips style and tag us for a chance to make a cameo in our
+          next fashion show
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column
+        ><mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/ali-pazani-NCVplDQafPs-unsplash_1_sbcl9q.png"
+          alt=""
+          width="250px"
+          padding-right="5px" />
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/danny-g-wA1lKuphLvg-unsplash_1_sqdqxx.png"
+          alt=""
+          width="250px"
+          padding-right="5px" />
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/filip-baotic-MJO4z7z-uQY-unsplash_1_opzfeu.png"
+          alt=""
+          width="250px"
+          padding-right="5px"
+      /></mj-column>
+      <mj-column
+        ><mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643655034/lucas-lenzi-6QCZgqodrxI-unsplash_1_f3zpbz.png"
+          alt=""
+          width="250px"
+          padding-left="5px" />
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/jasmin-chew-txy8AZU04iw-unsplash_1_hv0lpt.png"
+          alt=""
+          width="250px"
+          padding-left="5px" />
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/jasmin-chew-BK1ZU6AV4-w-unsplash_1_ybkboe.png"
+          alt=""
+          width="250px"
+          padding-left="5px"
+      /></mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column vertical-align="middle">
+        <mj-table font-weight="700" font-family="Montserrat" font-size="18px">
+          <tr>
+            <td width="20%"></td>
+            <td width="30%" align="right" style="padding-right: 30px">
+              <img
+                src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/insta_kvn5hc.png"
+                width="40px"
+              />
+            </td>
+            <td width="30%">Follow us @snipsnipshop</td>
+            <td width="20%"></td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column
+        ><mj-button
+          font-size="18px"
+          font-family="Montserrat"
+          font-weight="700"
+          align="center"
+          background-color="transparent"
+          border="5px solid #01284F"
+          border-radius="0px"
+          padding-bottom="20px"
+          height="88px"
+          width="220px"
+          href="#"
+          color="#01284F"
+          >Follow Us</mj-button
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="425px" />
+    <mj-title>Resta</mj-title>
+    <mj-attributes> </mj-attributes>
+    <mj-style>
+      .subhead { font-size:24px; font-weight: 700; } .red { color:#FF3D30;}
+      .underline { border-bottom:2px solid #FF3D30; font-size:18px;
+      font-weight:700; } @media (max-width:768px){ .app-icons td{ padding:10px
+      30px !important; } }
+    </mj-style>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <mj-font
+      name="Bevan"
+      href="https://fonts.googleapis.com/css2?family=Bevan&display=swap"
+    />
+    <mj-preview>Check out our new app</mj-preview>
+  </mj-head>
+  <mj-body background-color="white">
+    <mj-section background-color="#DFD7CA">
+      <mj-column>
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673058/Group_9_qwc1g1.png"
+          alt="logo"
+          width="160px"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-hero
+      mode="fixed-height"
+      height="735px"
+      background-url="https://res.cloudinary.com/thien1013/image/upload/v1643674285/wine_1_gnk9ig.png"
+      background-color="#DFD7CA"
+      background-position="center"
+      background-width="600px"
+      background-height="735px"
+    >
+    </mj-hero>
+    <mj-section background-color="#DFD7CA">
+      <mj-column vertical-align="middle"
+        ><mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673058/jan-nguyen-u9tN9NIJgMc-unsplash_1_z0mozv.png"
+          alt="food"
+          width="250px"
+      /></mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text font-family="Poppins" font-size="18px" color="black"
+          ><h2 class="subhead">WHY WE LIKE IT</h2>
+          <p>Context when you need it</p></mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#DFD7CA" direction="rtl">
+      <mj-column vertical-align="middle"
+        ><mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673058/phebe-tan-G0H58Z5aPog-unsplash_1_g7yjin.png"
+          alt="restaurant"
+          width="250px"
+      /></mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text font-family="Poppins" font-size="18px" color="black"
+          ><h2 class="subhead">AN INSIDER’S LENS</h2>
+          <p>
+            Discover the next best restaurant through curated collections,
+            monthly Hit Lists, chef interviews, and more
+          </p></mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#DFD7CA">
+      <mj-column vertical-align="middle"
+        ><mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673058/rc-cf-FMh5o5m5N9E-unsplash_1_mjbqu2.png"
+          alt="chef"
+          width="250px"
+      /></mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text font-family="Poppins" font-size="18px" color="black"
+          ><h2 class="subhead">YOUR RESTAURANT-LOVING PARTNER IN CRIME</h2>
+          <p>
+            Follow <span class="red">@Resta</span> for real-time, on-the-ground,
+            behind-the-scenes intel
+          </p></mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#DFD7CA">
+      <mj-column>
+        <mj-button
+          font-family="Poppins"
+          font-size="18px"
+          font-weight="700"
+          background-color="#FF3D30"
+          height="60px"
+          width="250px"
+          >ALWAYS BE IN THE KNOW</mj-button
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F0E6">
+      <mj-column>
+        <mj-text align="center"
+          ><span class="underline"> DOWNLOAD THE APP </span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#F5F0E6"
+      padding="10px 150px"
+      css-class="app-icons"
+    >
+      <mj-column
+        ><mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673058/cib_google-play_uklmrb.png"
+          alt="google play"
+          width="50px"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673057/grommet-icons_apple-app-store_ppivkv.png"
+          alt="apple apps"
+          width="50px"
+      /></mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F0E6">
+      <mj-column>
+        <mj-text align="center"
+          ><span class="underline"> FOLLOW US ON SOCIAL MEDIA </span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#F5F0E6"
+      padding="10px 150px"
+      css-class="app-icons"
+    >
+      <mj-column
+        ><mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673058/insta_fclbbp.png"
+          alt="instagram"
+          width="50px"
+        />
+      </mj-column>
+
+      <mj-column>
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673058/fb_sxqfqq.png"
+          alt="facebook"
+          width="50px"
+      /></mj-column>
+      <mj-column>
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673057/akar-icons_twitter-fill_syj2sb.png"
+          alt="twitter"
+          width="50px"
+      /></mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F0E6">
+      <mj-column>
+        <mj-image
+          src="https://res.cloudinary.com/thien1013/image/upload/v1643673058/Group_9_qwc1g1.png"
+          alt="logo"
+          width="160px"
+          padding-bottom="50px"
+        />
+        <mj-text
+          font-family="Poppins"
+          font-size="18px"
+          font-weight="400"
+          align="center"
+          >WELCOME TO THE AMAZING WORLD OF RESTAURANTS</mj-text
+        >
+        <mj-text
+          font-family="Poppins"
+          font-size="10px"
+          font-weight="400"
+          align="center"
+          padding-top="50px"
+          >If you prefer not to receive these emails, you can
+          unsubscribe.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

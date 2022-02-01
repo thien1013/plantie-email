@@ -28,6 +28,7 @@ a {
 
 .displayText {
   font-family: "Amarante", cursive;
+  text-align: center;
 }
 
 h1 {
@@ -49,8 +50,15 @@ h1 {
 
 .card {
   margin: 10px;
+  text-align: center;
 }
 
 .card:hover {
   border-bottom: 3px solid black;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 124px;
+  }
 }

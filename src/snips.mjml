@@ -3,7 +3,10 @@
     <mj-breakpoint width="375px" />
     <mj-title>Snips daily mail</mj-title>
     <mj-attributes> </mj-attributes>
-    <mj-style inline="inline"></mj-style>
+    <mj-style>
+      @media (max-width:375px){ .title{ font-size:124px !important;} .tile{
+      padding:10px 0px !important; } }
+    </mj-style>
     <mj-font
       name="Poiret One"
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
@@ -28,6 +31,7 @@
           color="white"
           align="center"
           padding-bottom="350px"
+          css-class="title"
           >Snips</mj-text
         >
         <mj-button
@@ -68,34 +72,40 @@
           src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/ali-pazani-NCVplDQafPs-unsplash_1_sbcl9q.png"
           alt=""
           width="250px"
-          padding-right="5px" />
+          padding-right="5px"
+          css-class="tile" />
         <mj-image
           src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/danny-g-wA1lKuphLvg-unsplash_1_sqdqxx.png"
           alt=""
           width="250px"
-          padding-right="5px" />
+          padding-right="5px"
+          css-class="tile" />
         <mj-image
           src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/filip-baotic-MJO4z7z-uQY-unsplash_1_opzfeu.png"
           alt=""
           width="250px"
           padding-right="5px"
+          css-class="tile"
       /></mj-column>
       <mj-column
         ><mj-image
           src="https://res.cloudinary.com/thien1013/image/upload/v1643655034/lucas-lenzi-6QCZgqodrxI-unsplash_1_f3zpbz.png"
           alt=""
           width="250px"
-          padding-left="5px" />
+          padding-left="5px"
+          css-class="tile" />
         <mj-image
           src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/jasmin-chew-txy8AZU04iw-unsplash_1_hv0lpt.png"
           alt=""
           width="250px"
-          padding-left="5px" />
+          padding-left="5px"
+          css-class="tile" />
         <mj-image
           src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/jasmin-chew-BK1ZU6AV4-w-unsplash_1_ybkboe.png"
           alt=""
           width="250px"
           padding-left="5px"
+          css-class="tile"
       /></mj-column>
     </mj-section>
     <mj-section background-color="white">

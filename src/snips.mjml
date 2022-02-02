@@ -66,7 +66,12 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="white">
+    <mj-section
+      background-color="white"
+      background-url="https://res.cloudinary.com/thien1013/image/upload/v1643802805/bg_d5vvun.png"
+      background-size="cover"
+      background-position="center"
+    >
       <mj-column
         ><mj-image
           src="https://res.cloudinary.com/thien1013/image/upload/v1643655033/ali-pazani-NCVplDQafPs-unsplash_1_sbcl9q.png"
